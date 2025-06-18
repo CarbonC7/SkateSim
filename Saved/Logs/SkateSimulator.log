@@ -1409,3 +1409,294 @@ LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable creat
 [2025.06.18-18.37.14:397][310]LogStaticMesh: Display: Building static mesh SM_MergedGround01...
 [2025.06.18-18.37.16:263][316]LogStaticMesh: Built static mesh [1.87s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedGround01.SM_MergedGround01
 [2025.06.18-18.37.16:276][316]LogStaticMesh: Display: Building static mesh SM_MergedFence03_2...
+[2025.06.18-18.37.43:588][398]LogStaticMesh: Built static mesh [27.31s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_2.SM_MergedFence03_2
+[2025.06.18-18.38.51:584][775]LogStaticMesh: Built static mesh [169.28s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedParkSquare01.SM_MergedParkSquare01
+[2025.06.18-18.38.52:462][778]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_228 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:462][778]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_229 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:508][778]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground02_N.T_Ground02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:515][778]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground02_D.T_Ground02_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:723][779]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground01_D.T_Ground01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:734][779]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground01_N.T_Ground01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.38.52:909][779]LogStaticMesh: Display: Building static mesh SM_MergedRoad02...
+[2025.06.18-18.38.52:919][779]LogStaticMesh: Display: Building static mesh SM_MergedFence04...
+[2025.06.18-18.39.48:707][947]LogStaticMesh: Built static mesh [55.79s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence04.SM_MergedFence04
+[2025.06.18-18.39.49:200][948]LogStaticMesh: Display: Building static mesh SM_MergedFence05...
+[2025.06.18-18.39.49:679][949]LogNavigation: Warning: Exporting collision geometry with too many triangles (210896). This might cause performance and memory issues. Add a simple collision or change GeometryExportVertexCountWarningThreshold. See 'StaticMeshComponent /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.MergedFence04.StaticMeshComponent0'.
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: ================================================
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Total job queries 6.152, among them cache hits 65 (1.06%)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Tracking 6.008 distinct input hashes that result in 4.130 distinct outputs (68.74%)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: RAM used: 16,15 MiB of 819,20 MiB budget. Usage: 1.97%
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Shaders Compiled: 6.008
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Jobs assigned 6.012, completed 6.008 (99.93%)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Average time worker was idle: 2.70 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Time job spent in pending queue: average 515.26 s, longest 1086.06 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Job execution time: average 9.07 s, max 86.24 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Job life time (pending + execution): average 524.67 s, max 1093.99
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Shader code size: average 11,002 KiB, min 140 B, max 154,367 KiB
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1165.55 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Jobs were issued in 803 batches (only local compilation was used), average 7.49 jobs/batch
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Average processing rate: 5.15 jobs/sec
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Total thread time: 5.610,274 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Total thread preprocess time: 162,016 s
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Percentage time preprocessing: 2.89%
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Effective parallelization: 4.81 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                              FVisualizeHDRPS (compiled    1 times, average 23.09 sec, max 23.09 sec, min 23.09 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 20.95 sec, max 74.15 sec, min 2.26 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                   FScreenSpaceShortRangeAOCS (compiled   12 times, average 9.29 sec, max 41.31 sec, min 0.95 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 9.16 sec, max 24.30 sec, min 0.40 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                    FShadingFurnaceTestPassPS (compiled    1 times, average 8.55 sec, max 8.55 sec, min 8.55 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:          FBuildInstanceIdBufferAndCommandsFromPrimitiveIdsCs - 10.94% of total time (compiled  384 times, average 1.60 sec, max 6.49 sec, min 0.14 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 10.04% of total time (compiled  128 times, average 4.40 sec, max 11.21 sec, min 0.86 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 8.73% of total time (compiled  128 times, average 3.83 sec, max 8.95 sec, min 2.55 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                                             FDeferredLightPS - 5.33% of total time (compiled   90 times, average 3.32 sec, max 7.07 sec, min 0.51 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display:                          FReflectionEnvironmentSkyLightingPS - 4.89% of total time (compiled   96 times, average 2.86 sec, max 6.50 sec, min 0.55 sec)
+[2025.06.18-18.39.50:785][ 26]LogShaderCompilers: Display: ================================================
+[2025.06.18-18.40.22:925][198]LogStaticMesh: Built static mesh [33.73s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence05.SM_MergedFence05
+[2025.06.18-18.40.23:094][198]LogStaticMesh: Display: Building static mesh SM_MergedBridge01...
+[2025.06.18-18.40.23:580][200]LogStaticMesh: Built static mesh [191.03s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedParkFence03.SM_MergedParkFence03
+[2025.06.18-18.40.24:882][204]LogStaticMesh: Display: Building static mesh SM_MergedFence03_1...
+[2025.06.18-18.40.25:517][205]LogNavigation: Warning: Exporting collision geometry with too many triangles (433337). This might cause performance and memory issues. Add a simple collision or change GeometryExportVertexCountWarningThreshold. See 'StaticMeshComponent /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.SM_MergedParkFence03_5.StaticMeshComponent0'.
+[2025.06.18-18.40.45:449][265]LogStaticMesh: Built static mesh [112.54s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedRoad02.SM_MergedRoad02
+[2025.06.18-18.40.46:267][268]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_20 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:274][268]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_22 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:285][268]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_36 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:297][268]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass03_D.T_Grass03_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:335][268]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass01_N.T_Grass01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:367][268]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass01_D.T_Grass01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.40.46:391][268]LogStaticMesh: Display: Building static mesh SM_MergedFence01...
+[2025.06.18-18.40.46:844][269]LogNavigation: Warning: Exporting collision geometry with too many triangles (342088). This might cause performance and memory issues. Add a simple collision or change GeometryExportVertexCountWarningThreshold. See 'StaticMeshComponent /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.MergedRoad2.StaticMeshComponent0'.
+[2025.06.18-18.40.50:681][281]LogStaticMesh: Built static mesh [27.59s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedBridge01.SM_MergedBridge01
+[2025.06.18-18.40.50:860][282]LogStaticMesh: Display: Building static mesh SM_MergedFence03_6...
+[2025.06.18-18.40.53:405][289]LogStaticMesh: Built static mesh [28.52s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_1.SM_MergedFence03_1
+[2025.06.18-18.40.53:593][290]LogStaticMesh: Display: Building static mesh SM_Rock02...
+[2025.06.18-18.40.53:887][291]LogStaticMesh: Built static mesh [0.29s] /Game/CityPark/Meshes/Ground/SM_Rock02.SM_Rock02
+[2025.06.18-18.40.53:891][291]LogStaticMesh: Display: Building static mesh SM_MergedFence02_1...
+[2025.06.18-18.41.16:993][360]LogStaticMesh: Built static mesh [23.10s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence02_1.SM_MergedFence02_1
+[2025.06.18-18.41.17:140][360]LogTexture: Display: Building textures: /Game/CityPark/Textures/BaseTextures/T_MASK1.T_MASK1 (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:153][360]LogTexture: Display: Building textures: /Game/CityPark/Textures/BaseTextures/T_BW_D.T_BW_D (TFO_AutoDXT, 8x8 x1x1x1) (Required Memory Estimate: 0.072553 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:159][360]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass03_N.T_Grass03_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:183][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass06_D.T_Grass06_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:211][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass06_N.T_Grass06_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:265][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass07_D.T_Grass07_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:355][361]LogStaticMesh: Display: Building static mesh SM_WaterPlane...
+[2025.06.18-18.41.17:362][361]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/Ground/SM_WaterPlane.SM_WaterPlane
+[2025.06.18-18.41.17:367][361]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_5...
+[2025.06.18-18.41.17:438][361]LogStaticMesh: Built static mesh [0.07s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_5.SM_ParkSquare03_5
+[2025.06.18-18.41.17:441][361]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_2...
+[2025.06.18-18.41.17:454][361]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_2.SM_ParkSquare02_2
+[2025.06.18-18.41.17:455][361]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_3...
+[2025.06.18-18.41.17:462][361]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_3.SM_ParkSquare02_3
+[2025.06.18-18.41.17:502][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass07_N.T_Grass07_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:592][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass08_D.T_Grass08_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:626][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass08_N.T_Grass08_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:654][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass09_D.T_Grass09_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:689][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass09_N.T_Grass09_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:716][361]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass10_D.T_Grass10_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.17:740][361]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_3...
+[2025.06.18-18.41.18:995][372]LogStaticMesh: Built static mesh [1.26s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_3.SM_ParkSquare13_3
+[2025.06.18-18.41.19:007][372]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_6...
+[2025.06.18-18.41.19:100][372]LogStaticMesh: Built static mesh [0.09s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_6.SM_ParkSquare03_6
+[2025.06.18-18.41.19:103][372]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_5...
+[2025.06.18-18.41.19:115][372]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_5.SM_ParkSquare05_5
+[2025.06.18-18.41.19:116][372]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_3...
+[2025.06.18-18.41.19:220][375]LogStaticMesh: Built static mesh [0.10s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_3.SM_ParkSquare03_3
+[2025.06.18-18.41.19:234][376]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass10_N.T_Grass10_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:312][383]LogTexture: Display: Building textures: /Game/CityPark/Textures/BaseTextures/T_MASK2.T_MASK2 (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:499][402]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass11_D.T_Grass11_D (TFO_AutoDXT, 512x256 x1x1x1) (Required Memory Estimate: 20.72909 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:520][403]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass11_N.T_Grass11_N (TFO_BC5, 512x256 x1x1x1) (Required Memory Estimate: 37.062361 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:546][403]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass12_D.T_Grass12_D (TFO_AutoDXT, 512x256 x1x1x1) (Required Memory Estimate: 20.72909 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:597][403]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass12_N.T_Grass12_N (TFO_BC5, 512x256 x1x1x1) (Required Memory Estimate: 37.062361 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:607][403]LogStaticMesh: Display: Building static mesh SM_ParkSquare07_1...
+[2025.06.18-18.41.19:616][403]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_1.SM_ParkSquare07_1
+[2025.06.18-18.41.19:619][403]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_4...
+[2025.06.18-18.41.19:712][403]LogStaticMesh: Built static mesh [0.09s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_4.SM_ParkSquare03_4
+[2025.06.18-18.41.19:715][403]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_1...
+[2025.06.18-18.41.19:814][404]LogStaticMesh: Built static mesh [0.10s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_1.SM_ParkSquare03_1
+[2025.06.18-18.41.19:836][404]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_8...
+[2025.06.18-18.41.19:843][404]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_8.SM_ParkSquare02_8
+[2025.06.18-18.41.19:850][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass13_D.T_Grass13_D (TFO_AutoDXT, 512x256 x1x1x1) (Required Memory Estimate: 20.72909 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:890][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass13_N.T_Grass13_N (TFO_BC5, 512x256 x1x1x1) (Required Memory Estimate: 37.062361 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:910][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass14_D.T_Grass14_D (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.645795 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:910][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_Grass14_N.T_Grass14_N (TFO_BC5, 128x128 x1x1x1) (Required Memory Estimate: 4.68743 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:929][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Bushs/T_Bush01_D.T_Bush01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.19:975][404]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Bushs/T_Bush01_N.T_Bush01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.20:003][404]LogStaticMesh: Display: Building static mesh SM_ParkSquare06_4...
+[2025.06.18-18.41.20:091][405]LogStaticMesh: Built static mesh [29.23s] /Game/CityPark/Meshes/MergeMeshes/SM_MergedFence03_6.SM_MergedFence03_6
+[2025.06.18-18.41.20:325][407]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_2...
+[2025.06.18-18.41.20:558][407]LogStaticMesh: Built static mesh [0.23s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_2.SM_ParkSquare01_2
+[2025.06.18-18.41.20:561][407]LogStaticMesh: Display: Building static mesh SM_ParkSquare06_2...
+[2025.06.18-18.41.21:021][450]LogStaticMesh: Built static mesh [1.02s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_4.SM_ParkSquare06_4
+[2025.06.18-18.41.21:031][451]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_2...
+[2025.06.18-18.41.21:042][452]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_2.SM_ParkSquare05_2
+[2025.06.18-18.41.21:047][452]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Bushs/T_Bush01_SRM.T_Bush01_SRM (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.21:070][454]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_WaterPlant_D.T_WaterPlant_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.21:107][458]LogTexture: Display: Building textures: /Game/CityPark/Textures/Flora/Grass/T_WaterPlant_N.T_WaterPlant_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.21:179][464]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground03_D.T_Ground03_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.21:409][489]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground03_N.T_Ground03_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.21:492][498]LogStaticMesh: Display: Building static mesh SM_ParkSquare06_1...
+[2025.06.18-18.41.21:691][520]LogStaticMesh: Built static mesh [1.13s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_2.SM_ParkSquare06_2
+[2025.06.18-18.41.21:700][521]LogStaticMesh: Display: Building static mesh SM_ParkSquare09_4...
+[2025.06.18-18.41.21:708][521]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_4.SM_ParkSquare09_4
+[2025.06.18-18.41.21:713][522]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_3...
+[2025.06.18-18.41.21:727][523]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_3.SM_ParkSquare05_3
+[2025.06.18-18.41.21:727][523]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_1...
+[2025.06.18-18.41.21:730][523]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_1.SM_ParkSquare05_1
+[2025.06.18-18.41.21:790][529]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground05_D.T_Ground05_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:031][556]LogStaticMesh: Built static mesh [0.54s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_1.SM_ParkSquare06_1
+[2025.06.18-18.41.22:034][556]LogTexture: Display: Building textures: /Game/CityPark/Textures/Ground/T_Ground05_N.T_Ground05_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:083][561]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Asphalt_D.T_Asphalt_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:297][584]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Asphalt_N.T_Asphalt_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:300][584]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Sidewalk01_D.T_Sidewalk01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:478][603]LogStaticMesh: Display: Building static mesh SM_Statue05...
+[2025.06.18-18.41.22:513][606]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Sidewalk01_N.T_Sidewalk01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:558][611]LogStaticMesh: Built static mesh [0.08s] /Game/CityPark/Meshes/Props/SM_Statue05.SM_Statue05
+[2025.06.18-18.41.22:580][614]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_12...
+[2025.06.18-18.41.22:588][615]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_12.SM_ParkSquare05_12
+[2025.06.18-18.41.22:590][615]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_1...
+[2025.06.18-18.41.22:614][617]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_7...
+[2025.06.18-18.41.22:615][617]LogStaticMesh: Built static mesh [0.03s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_1.SM_ParkSquare02_1
+[2025.06.18-18.41.22:626][618]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_7.SM_ParkSquare05_7
+[2025.06.18-18.41.22:627][618]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_7...
+[2025.06.18-18.41.22:691][625]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Sidewalk02_D.T_Sidewalk02_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.22:937][652]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_Sidewalk02_N.T_Sidewalk02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.23:050][664]LogTexture: Display: Building textures: /Game/CityPark/Textures/ParkSquare/T_Pool2_D.T_Pool2_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.23:100][669]LogTexture: Display: Building textures: /Game/CityPark/Textures/ParkSquare/T_Pool2_N.T_Pool2_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.23:126][671]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_LeakDecal01_D.T_LeakDecal01_D (TFO_AutoDXT, 512x128 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.23:143][673]LogStaticMesh: Display: Building static mesh SM_ParkSquare04_1...
+[2025.06.18-18.41.23:157][674]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare04_1.SM_ParkSquare04_1
+[2025.06.18-18.41.23:159][674]LogStaticMesh: Display: Building static mesh SM_ParkSquare09_3...
+[2025.06.18-18.41.23:171][675]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_3.SM_ParkSquare09_3
+[2025.06.18-18.41.23:176][675]LogTexture: Display: Building textures: /Game/CityPark/Textures/Road/T_LeakDecal01_N.T_LeakDecal01_N (TFO_BC5, 512x128 x1x1x1) (Required Memory Estimate: 18.562259 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.23:187][676]LogStaticMesh: Display: Building static mesh SM_ParkSquare09_1...
+[2025.06.18-18.41.23:243][682]LogStaticMesh: Built static mesh [0.06s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare09_1.SM_ParkSquare09_1
+[2025.06.18-18.41.23:245][682]LogStaticMesh: Display: Building static mesh SM_ParkSquare03_8...
+[2025.06.18-18.41.23:709][730]LogStaticMesh: Built static mesh [1.08s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_7.SM_ParkSquare03_7
+[2025.06.18-18.41.23:901][751]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_CafeBuilding_D.T_CafeBuilding_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:215][786]LogStaticMesh: Built static mesh [0.97s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare03_8.SM_ParkSquare03_8
+[2025.06.18-18.41.24:351][800]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_CafeBuilding_SRM.T_CafeBuilding_SRM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:408][806]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile01_D.T_RoofTile01_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:474][812]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile01_N.T_RoofTile01_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:505][815]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_4...
+[2025.06.18-18.41.24:531][817]LogStaticMesh: Built static mesh [0.03s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_4.SM_ParkSquare13_4
+[2025.06.18-18.41.24:533][818]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_9...
+[2025.06.18-18.41.24:547][819]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_9.SM_ParkSquare05_9
+[2025.06.18-18.41.24:553][819]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile01_SRM.T_RoofTile01_SRM (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:553][819]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_CafeBuilding_N.T_CafeBuilding_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.24:584][822]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_10...
+[2025.06.18-18.41.24:806][844]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_4...
+[2025.06.18-18.41.25:216][845]LogStaticMesh: Built static mesh [0.41s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_4.SM_ParkSquare01_4
+[2025.06.18-18.41.25:220][845]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_5...
+[2025.06.18-18.41.25:523][846]LogStaticMesh: Built static mesh [0.94s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_10.SM_ParkSquare01_10
+[2025.06.18-18.41.25:577][846]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall01_D.T_Wall01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.25:771][846]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall01_N.T_Wall01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.25:868][847]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall01_SRM.T_Wall01_SRM (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.25:928][847]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall03_D.T_Wall03_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.25:966][847]LogStaticMesh: Built static mesh [0.75s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_5.SM_ParkSquare01_5
+[2025.06.18-18.41.26:011][847]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_1...
+[2025.06.18-18.41.26:019][847]LogStaticMesh: Display: Building static mesh SM_ParkSquare12_3...
+[2025.06.18-18.41.26:987][850]LogStaticMesh: Built static mesh [0.98s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_1.SM_ParkSquare13_1
+[2025.06.18-18.41.27:033][850]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall03_N.T_Wall03_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.27:126][851]LogTexture: Display: Building textures: /Game/CityPark/Textures/BaseTextures/TC_HDR01.TC_HDR01 (RGBA16F, 512x256 x1x1x1) (Required Memory Estimate: 4.562485 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.27:173][851]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_7...
+[2025.06.18-18.41.27:655][852]LogStaticMesh: Built static mesh [0.48s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_7.SM_ParkSquare01_7
+[2025.06.18-18.41.27:660][852]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_8...
+[2025.06.18-18.41.28:092][853]LogStaticMesh: Built static mesh [0.43s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_8.SM_ParkSquare01_8
+[2025.06.18-18.41.28:141][854]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House01_D.T_House01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.28:270][854]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House01_N.T_House01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.28:347][854]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House01_SRM.T_House01_SRM (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.28:368][854]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_9...
+[2025.06.18-18.41.29:325][857]LogStaticMesh: Built static mesh [0.96s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_9.SM_ParkSquare01_9
+[2025.06.18-18.41.29:390][857]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile02_D.T_RoofTile02_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.29:497][858]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 682.772156
+[2025.06.18-18.41.29:518][858]LogStaticMesh: Display: Building static mesh SM_ParkSquare11_1...
+[2025.06.18-18.41.29:620][858]LogStaticMesh: Built static mesh [0.10s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare11_1.SM_ParkSquare11_1
+[2025.06.18-18.41.29:656][858]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile02_N.T_RoofTile02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.29:719][858]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_RoofTile02_SRM.T_RoofTile02_SRM (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.29:739][858]LogStaticMesh: Display: Building static mesh SM_ParkSquare12_1...
+[2025.06.18-18.41.30:447][861]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.06.18-18.41.30:447][861]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 683.385803, Update Interval: 354.468201
+[2025.06.18-18.41.34:741][873]LogStaticMesh: Built static mesh [5.00s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare12_1.SM_ParkSquare12_1
+[2025.06.18-18.41.34:767][873]LogStaticMesh: Display: Building static mesh SM_ParkSquare06_3...
+[2025.06.18-18.41.35:839][877]LogStaticMesh: Built static mesh [1.07s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_3.SM_ParkSquare06_3
+[2025.06.18-18.41.35:897][877]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Floor01_D.T_Floor01_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.36:052][877]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Floor01_N.T_Floor01_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.36:138][878]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Floor01_SRM.T_Floor01_SRM (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.36:169][878]LogStaticMesh: Display: Building static mesh SM_ParkSquare06_5...
+[2025.06.18-18.41.37:198][881]LogStaticMesh: Built static mesh [1.03s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare06_5.SM_ParkSquare06_5
+[2025.06.18-18.41.37:378][881]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House02_D.T_House02_D (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.37:841][883]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_7...
+[2025.06.18-18.41.38:910][886]LogStaticMesh: Built static mesh [1.07s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_7.SM_ParkSquare13_7
+[2025.06.18-18.41.39:064][886]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House02_N.T_House02_N (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.39:334][887]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_House02_SRM.T_House02_SRM (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.39:391][887]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_6...
+[2025.06.18-18.41.39:412][887]LogStaticMesh: Built static mesh [0.02s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_6.SM_ParkSquare13_6
+[2025.06.18-18.41.39:414][887]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_3...
+[2025.06.18-18.41.40:104][889]LogStaticMesh: Built static mesh [14.09s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare12_3.SM_ParkSquare12_3
+[2025.06.18-18.41.40:173][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Stairs01_D.T_Stairs01_D (TFO_AutoDXT, 512x256 x1x1x1) (Required Memory Estimate: 20.72909 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:199][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Stairs01_N.T_Stairs01_N (TFO_BC5, 512x256 x1x1x1) (Required Memory Estimate: 37.062361 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:216][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Stairs01_SRM.T_Stairs01_SRM (TFO_AutoDXT, 256x128 x1x1x1) (Required Memory Estimate: 5.22909 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:227][890]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_5...
+[2025.06.18-18.41.40:261][890]LogStaticMesh: Built static mesh [0.03s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_5.SM_ParkSquare02_5
+[2025.06.18-18.41.40:296][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall02_D.T_Wall02_D (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 79.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:297][890]LogStaticMesh: Built static mesh [0.88s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_3.SM_ParkSquare01_3
+[2025.06.18-18.41.40:305][890]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_8...
+[2025.06.18-18.41.40:317][890]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_8.SM_ParkSquare05_8
+[2025.06.18-18.41.40:407][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Particles/T_ParticlesWater_D.T_ParticlesWater_D (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:429][890]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_7...
+[2025.06.18-18.41.40:451][890]LogTexture: Display: Building textures: /Game/CityPark/Textures/Buildings/T_Wall02_N.T_Wall02_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:553][891]LogStaticMesh: Display: Building static mesh SM_ParkSquare13_2...
+[2025.06.18-18.41.40:626][891]LogStaticMesh: Built static mesh [0.20s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_7.SM_ParkSquare02_7
+[2025.06.18-18.41.40:641][891]LogTexture: Display: Building textures: /Game/CityPark/Textures/Particles/T_ParticlesWater_N.T_ParticlesWater_N (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:719][891]LogTexture: Display: Building textures: /Game/CityPark/Textures/BaseTextures/T_Dirt_N.T_Dirt_N (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 123.562488 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:817][892]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_94 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.40:837][892]LogStaticMesh: Display: Building static mesh SM_Statue06...
+[2025.06.18-18.41.40:894][892]LogStaticMesh: Built static mesh [0.06s] /Game/CityPark/Meshes/Props/SM_Statue06.SM_Statue06
+[2025.06.18-18.41.40:898][892]LogStaticMesh: Display: Building static mesh SM_Statue01...
+[2025.06.18-18.41.41:736][894]LogStaticMesh: Built static mesh [1.19s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare13_2.SM_ParkSquare13_2
+[2025.06.18-18.41.41:744][894]LogStaticMesh: Display: Building static mesh SM_ParkSquare14_5...
+[2025.06.18-18.41.41:758][894]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_5.SM_ParkSquare14_5
+[2025.06.18-18.41.41:761][894]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_92 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:769][894]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_93 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:776][894]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_128 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:778][894]LogStaticMesh: Display: Building static mesh SM_ParkSquare07_3...
+[2025.06.18-18.41.41:811][895]LogStaticMesh: Built static mesh [0.03s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_3.SM_ParkSquare07_3
+[2025.06.18-18.41.41:814][895]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_97 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:823][895]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_108 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:830][895]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_98 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.41:833][895]LogStaticMesh: Display: Building static mesh SM_ParkSquare07_2...
+[2025.06.18-18.41.41:970][895]LogStaticMesh: Built static mesh [0.14s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare07_2.SM_ParkSquare07_2
+[2025.06.18-18.41.41:973][895]LogStaticMesh: Display: Building static mesh SM_ParkSquare14_1...
+[2025.06.18-18.41.43:565][900]LogStaticMesh: Built static mesh [1.59s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_1.SM_ParkSquare14_1
+[2025.06.18-18.41.43:573][900]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_1...
+[2025.06.18-18.41.43:664][900]LogStaticMesh: Built static mesh [0.09s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_1.SM_ParkSquare01_1
+[2025.06.18-18.41.43:668][900]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_109 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:676][900]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_99 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:684][900]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_110 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:687][900]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_6...
+[2025.06.18-18.41.43:873][901]LogStaticMesh: Built static mesh [0.19s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_6.SM_ParkSquare01_6
+[2025.06.18-18.41.43:878][901]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_31 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:887][901]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_111 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:897][901]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_101 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.43:902][901]LogStaticMesh: Display: Building static mesh SM_ParkSquare01_11...
+[2025.06.18-18.41.44:023][901]LogStaticMesh: Built static mesh [0.13s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare01_11.SM_ParkSquare01_11
+[2025.06.18-18.41.44:026][901]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_4...
+[2025.06.18-18.41.44:496][903]LogStaticMesh: Built static mesh [0.47s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_4.SM_ParkSquare02_4
+[2025.06.18-18.41.44:499][903]LogStaticMesh: Display: Building static mesh SM_ParkSquare10...
+[2025.06.18-18.41.44:512][903]LogStaticMesh: Built static mesh [0.01s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare10.SM_ParkSquare10
+[2025.06.18-18.41.44:515][903]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_112 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.44:521][903]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_102 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.44:534][903]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_90 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.44:539][903]LogStaticMesh: Display: Building static mesh SM_ParkSquare14_2...
+[2025.06.18-18.41.45:826][907]LogStaticMesh: Built static mesh [1.29s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare14_2.SM_ParkSquare14_2
+[2025.06.18-18.41.45:839][907]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_83 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.45:843][907]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_127 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.45:853][907]LogTexture: Display: Building textures: /Game/CityPark/Maps/Showcase.Showcase:PersistentLevel.Landscape_0.Texture2D_21 (BGRA8, 256x256 x1x1x1) (Required Memory Estimate: 2.062492 MB), EncodeSpeed: Fast
+[2025.06.18-18.41.45:855][907]LogStaticMesh: Display: Building static mesh SM_ParkSquare05_6...
+[2025.06.18-18.41.46:235][908]LogStaticMesh: Built static mesh [0.38s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare05_6.SM_ParkSquare05_6
+[2025.06.18-18.41.46:237][908]LogStaticMesh: Display: Building static mesh SM_ParkSquare02_6...
+[2025.06.18-18.41.46:403][908]LogStaticMesh: Built static mesh [0.17s] /Game/CityPark/Meshes/ParkSquare/SM_ParkSquare02_6.SM_ParkSquare02_6
+[2025.06.18-18.41.46:405][908]LogStaticMesh: Display: Building static mesh SM_ParkSquare12_2...
